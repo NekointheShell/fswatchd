@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+
+pip install .
+cp example.conf /etc/fswatchd.conf
+cp fswatchd.service /etc/systemd/system/
+
+systemctl daemon-reload

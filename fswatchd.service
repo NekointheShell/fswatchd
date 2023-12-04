@@ -1,0 +1,10 @@
+[Unit]
+Description = Watches for FS events
+
+
+[Service]
+ExecStart=fswatchd
+
+
+[Install]
+WantedBy=multi-user.target
