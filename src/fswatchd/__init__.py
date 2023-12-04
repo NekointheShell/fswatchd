@@ -9,7 +9,7 @@ import systemd.journal
 def parseargs():
     parser = argparse.ArgumentParser(prog = 'fswatchd', description = 'Watches for FS events.')
 
-    parser.add_argument('-c', '--config', default = '/etc/fswatchd.conf', help = 'Path to configuration file.')
+    parser.add_argument('-c', '--config', default = '/etc/fswatchd.yaml', help = 'Path to configuration file.')
     return parser.parse_args()
 
 

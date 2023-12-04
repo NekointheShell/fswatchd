@@ -2,7 +2,7 @@
 
 
 pip install .
-cp example.conf /etc/fswatchd.conf
+cp example.yaml /etc/fswatchd.yaml
 cp fswatchd.service /etc/systemd/system/
 
 systemctl daemon-reload
