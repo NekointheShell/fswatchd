@@ -23,3 +23,8 @@ Possible options for the operations field include the following:
 * all
 
 The all tag will log any and all file operations done to a path.
+
+
+## ToDo
+* Error handling.
+* Exit cleanly with a shutdown function that attempts to join all threads.
